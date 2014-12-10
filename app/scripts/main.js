@@ -1,0 +1,2 @@
+
+$('.article-block').imagefill();

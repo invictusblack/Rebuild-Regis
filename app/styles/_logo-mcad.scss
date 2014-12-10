@@ -1,0 +1,9 @@
+.logo-mcad {
+  display: block;
+  height: 1.25em;
+  opacity: .4;
+  margin: .5em 0;
+  &:hover {
+    opacity: 1;
+  }
+}

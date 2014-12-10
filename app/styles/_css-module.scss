@@ -1,0 +1,13 @@
+.css-module{
+  margin-bottom: 3em;
+  &> h2{
+    padding: 1em;
+    font-family: monospace;
+    background-color: $gray-lighter;
+  }
+  .sample-image{
+    zoom: 0.5;
+    display: block;
+    border: 1px solid  $gray-lighter;
+  }
+}

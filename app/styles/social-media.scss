@@ -1,0 +1,22 @@
+.social-nav{
+
+ul{
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  float: left;
+  margin-right: 1em;
+  padding: 0 0.01em;
+  border-bottom: 0.4em solid transparent;
+}
+
+a{
+  padding: 0.25em;
+  display: inline-block;
+  color: $black;
+}
+}
