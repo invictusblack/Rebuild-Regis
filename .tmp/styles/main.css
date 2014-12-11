@@ -56,8 +56,8 @@ img {
 }
 
 .container {
-  width: 32%;
   height: 20em;
+  width: 100%;
   padding: 1em;
   color: white;
   float: left;
@@ -78,6 +78,21 @@ img {
 .container img {
   z-index: -10;
   max-width: none;
+}
+.container.block-large {
+  width: 40%;
+}
+.container.block-vert {
+  width: 25%;
+}
+.container.block-Medium {
+  width: 32%;
+}
+.container.block-small {
+  width: 20%;
+}
+.container.block-bowl {
+  width: 35%;
 }
 
 .page-header {

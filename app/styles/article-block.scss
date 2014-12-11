@@ -1,6 +1,6 @@
 .container {
-  width: 32%;
   height: 20em;
+  width: 100%;
   padding: 1em;
   color: white;
   float: left;
@@ -22,23 +22,18 @@
     max-width: none;
   }
   &.block-large{
-    width: 729px;
-    height: 517px;
+    width: 40%;
   }
   &.block-vert{
-    width:
-    height:
+    width: 25%;
   }
   &.block-Medium{
-    width:
-    height:
+    width: 32%;
   }
   &.block-small{
-    width:
-    height:
+    width: 20%;
   }
   &.block-bowl{
-    width:
-    height:
+    width: 35%;
   }
 }
