@@ -1,11 +1,15 @@
-social-nav{
+.social-nav{
+  color: #6b18e5;
   padding:0;
   margin:0;
-  border: 1px solid black;
+}
+
+.p{
+  align: left;
 }
 
 social-nav ul li{
-  float:left;
+  float:right;
   list-style:none;
   line-height:15px;
   padding-right:0.75em
