@@ -1,5 +1,9 @@
 .container {
+  width: 32%;
+  height: 20em;
+  background: linear-gradient(purple, purple);
   img{
     z-index: -10;
+    max-width: none;
   }
 }
