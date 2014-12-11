@@ -69,11 +69,12 @@ img {
   margin: 0;
   padding-left: 1em;
   line-height: 30px;
+  font-size: 1.25em;
 }
 .container h1 {
   margin: 0;
   padding-left: 14.5px;
-  font-size: 22px;
+  font-size: 2.35em;
 }
 .container img {
   z-index: -10;
