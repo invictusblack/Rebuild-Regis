@@ -1,7 +1,15 @@
 .container {
   width: 32%;
   height: 20em;
-  background: linear-gradient(purple, purple);
+  background: linear-gradient(#6b18e5, transparent);
+  padding: 1em;
+  color: white;
+  .category{
+    margin: 0;
+  }
+  h1{
+    margin: 0;
+  }
   img{
     z-index: -10;
     max-width: none;
