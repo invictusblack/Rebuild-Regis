@@ -1,38 +1,5 @@
-.article-block {
-  height: 20em;
-  width: 100%;
-  background: linear-gradient(red, transparent);
-  padding: 1em;
-  margin: 0.5em;
-  float: left;
-  color: white;
-  &:hover{
-    background: red;
-  }
-  .post-date{
-    float: right;
-  }
-  .post-date,
-  .category{
-    margin: 0;
-  }
-  h1 {
-    margin: 0;
-    font-size: 1.8em;
-    line-height: 1;
-  }
-
+.container {
   img{
     z-index: -10;
-    max-width: none;
-  }
-  &.block-small{
-    width: 25%;
-  }
-  &.block-medium{
-    width: 30%;
-  }
-  &.block-large{
-    width: 45%;
   }
 }

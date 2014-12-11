@@ -55,7 +55,7 @@ img {
   width: auto;
 }
 
-.article-block {
+.container {
   height: 20em;
   width: 100%;
   background: linear-gradient(red, transparent);
@@ -64,32 +64,32 @@ img {
   float: left;
   color: white;
 }
-.article-block:hover {
+.container:hover {
   background: red;
 }
-.article-block .post-date {
+.container .post-date {
   float: right;
 }
-.article-block .post-date,
-.article-block .category {
+.container .post-date,
+.container .category {
   margin: 0;
 }
-.article-block h1 {
+.container h1 {
   margin: 0;
   font-size: 1.8em;
   line-height: 1;
 }
-.article-block img {
+.container img {
   z-index: -10;
   max-width: none;
 }
-.article-block.block-small {
+.container.block-small {
   width: 25%;
 }
-.article-block.block-medium {
+.container.block-medium {
   width: 30%;
 }
-.article-block.block-large {
+.container.block-large {
   width: 45%;
 }
 
