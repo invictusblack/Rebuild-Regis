@@ -1,14 +1,22 @@
 .container {
-  width: 32%;
+  width: 100%;
   height: 20em;
   background: linear-gradient(#6b18e5, transparent);
   padding: 1em;
   color: white;
+  float: left;
+  &:hover{
+   background: #6b18e5;
+  }
   .category{
     margin: 0;
+    padding-left: 1em;
+    line-height: 30px;
   }
   h1{
     margin: 0;
+    padding-left: 14.5px;
+    font-size: 22px;
   }
   img{
     z-index: -10;
