@@ -4,24 +4,28 @@ ul{
   @include clearfix;
   margin: 0;
   padding: 0;
+  padding-top: 20px;
   list-style-type: none;
 }
 
 li{
   float: left;
   margin-right: 1em;
-  padding: 0 0.01em;
   border-bottom: 0.4em solid transparent;
 }
 
 a{
-  padding: 0.002em;
   display: inline-block;
   color: #6b18e5;
 }
 
 p{
+  font:600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  clear:both;
+  display:block;
+  margin-top:2em;
   float: right;
   color: #6b18e5;
+  font-size: 12px;
 }
 }

@@ -257,22 +257,22 @@ header .main-nav {
   clear: both;
   margin: 0;
   padding: 0;
+  padding-top: 20px;
   list-style-type: none;
 }
 .social-media li {
   float: left;
   margin-right: 1em;
-  padding: 0 0.01em;
   border-bottom: 0.4em solid transparent;
 }
 .social-media a {
-  padding: 0.002em;
   display: inline-block;
   color: #6b18e5;
 }
 .social-media p {
   float: right;
   color: #6b18e5;
+  font-size: 12px;
 }
 
 .header-utilities {
