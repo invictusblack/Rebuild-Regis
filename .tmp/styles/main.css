@@ -106,14 +106,14 @@ img {
 }
 
 .page-header {
-  font: "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
   color: #6b18e5;
 }
 .page-header .Regis {
-  padding-left: 16em;
+  font-size: 28px;
+  padding-left: 18.75em;
 }
 .page-header .type {
-  font-size: 15px;
   padding-left: .17em;
 }
 
