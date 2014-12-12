@@ -1,8 +1,11 @@
 .page-header{
-  line-height: 1;
-  font-size: 5px;
-  margin: 0;
-  .logo-sdo{
-  color: $color-logo-sdo;
+  font: "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  color: #6b18e5;
+  .Regis{
+    padding-left: 16em;
+  }
+  .type{
+    font-size: 15px;
+    padding-left: .17em;
   }
 }
