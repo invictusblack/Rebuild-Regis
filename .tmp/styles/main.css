@@ -251,7 +251,7 @@ header .main-nav {
   float: right;
 }
 
-.social-nav ul {
+.social-media ul {
   content: "";
   display: table;
   clear: both;
@@ -259,16 +259,20 @@ header .main-nav {
   padding: 0;
   list-style-type: none;
 }
-.social-nav li {
+.social-media li {
   float: left;
   margin-right: 1em;
   padding: 0 0.01em;
   border-bottom: 0.4em solid transparent;
 }
-.social-nav a {
-  padding: 0.25em;
+.social-media a {
+  padding: 0.002em;
   display: inline-block;
-  color: #333;
+  color: #6b18e5;
+}
+.social-media p {
+  float: right;
+  color: #6b18e5;
 }
 
 .header-utilities {

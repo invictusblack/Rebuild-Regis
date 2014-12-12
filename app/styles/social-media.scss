@@ -1,4 +1,4 @@
-.social-nav{
+.social-media{
 
 ul{
   @include clearfix;
@@ -15,8 +15,13 @@ li{
 }
 
 a{
-  padding: 0.25em;
+  padding: 0.002em;
   display: inline-block;
-  color: $black;
+  color: #6b18e5;
+}
+
+p{
+  float: right;
+  color: #6b18e5;
 }
 }
