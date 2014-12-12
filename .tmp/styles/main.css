@@ -270,9 +270,11 @@ header .main-nav {
   color: #6b18e5;
 }
 .social-media p {
+  font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  clear: both;
+  display: block;
   float: right;
   color: #6b18e5;
-  font-size: 12px;
 }
 
 .header-utilities {
