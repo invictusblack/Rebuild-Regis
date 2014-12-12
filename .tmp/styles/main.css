@@ -105,16 +105,6 @@ img {
   height: 17em;
 }
 
-.page-header {
-  max-width: 12em;
-  line-height: 1;
-  font-size: 1.8em;
-  margin: 0;
-}
-.page-header .logo-sdo {
-  color: #23CDFD;
-}
-
 .css-module {
   margin-bottom: 3em;
 }
@@ -127,48 +117,6 @@ img {
   zoom: 0.5;
   display: block;
   border: 1px solid #eee;
-}
-
-.category-blue {
-  background: linear-gradient(#0AF5FD, transparent);
-}
-.category-bluehover {
-  background: #0AF5FD;
-}
-
-.category-red {
-  background: linear-gradient(#E62620, transparent);
-}
-.category-redhover {
-  background: #E62620;
-}
-
-.category-pink {
-  background: linear-gradient(#EA0094, transparent);
-}
-.category-pinkhover {
-  background: #EA0094;
-}
-
-.category-green {
-  background: linear-gradient(#00EA90, transparent);
-}
-.category-greenhover {
-  background: #00EA90;
-}
-
-.category-yellow {
-  background: linear-gradient(#D5DC00, transparent);
-}
-.category-yellowhover {
-  background: #D5DC00;
-}
-
-.category-purple {
-  background: linear-gradient(#D43BEF, transparent);
-}
-.category-purplehover {
-  background: #D43BEF;
 }
 
 .main-nav {
@@ -211,22 +159,6 @@ img {
   display: inline-block;
 }
 
-.logo-mcad {
-  display: block;
-  height: 1.25em;
-  opacity: .4;
-  margin: .5em 0;
-}
-.logo-mcad:hover {
-  opacity: 1;
-}
-
-.social-nav {
-  color: #6b18e5;
-  padding: 0;
-  margin: 0;
-}
-
 header {
   content: "";
   display: table;
@@ -249,6 +181,17 @@ header .logo-mcad {
 }
 header .main-nav {
   float: right;
+}
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 .social-media ul {
@@ -275,38 +218,4 @@ header .main-nav {
   display: block;
   float: right;
   color: #6b18e5;
-}
-
-.header-utilities {
-  content: "";
-  display: table;
-  clear: both;
-  margin: 0;
-  padding: 0.25em;
-  list-style-type: none;
-  font-size: 0.75em;
-  font-weight: 500;
-  line-height: 1;
-}
-.header-utilities li {
-  float: left;
-  width: 6em;
-  margin-right: 2.5em;
-  border-left: 1px solid #333;
-  padding: 0.25em .5em;
-  opacity: 0.4;
-}
-.header-utilities li:hover {
-  opacity: 1;
-}
-.header-utilities .line {
-  display: block;
-}
-.header-utilities .brochure {
-  background: url("../images/sdo_broch.png") no-repeat right;
-  width: 8em;
-}
-.header-utilities a {
-  color: #333;
-  text-decoration: none;
 }
