@@ -70,10 +70,10 @@ img {
   padding-left: 1em;
   line-height: 30px;
   font-size: 1.25em;
-  color: transparent;
+  visibility: hidden;
 }
 .container .category:hover {
-  color: white;
+  display: s;
 }
 .container h1 {
   margin: 0;
