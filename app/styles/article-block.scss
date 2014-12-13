@@ -7,18 +7,14 @@
   &:hover{
    background: #6b18e5;
   }
-  .h1, .category{
-    color: transparent;
-    &:hover{
-      color: white;
-  }
-}
-}
   .category{
     margin: 0;
     padding-left: 1em;
     line-height: 30px;
     font-size: 1.25em;
+    visibility: hidden;
+    &:hover{
+      display: s;
     }
   }
 
@@ -26,6 +22,7 @@
     margin: 0;
     padding-left: 14.5px;
     font-size: 2.35em;
+    visibility: hidden;
   }
   img{
     z-index: -10;
