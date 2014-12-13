@@ -7,6 +7,13 @@
   &:hover{
    background: #6b18e5;
   }
+  .h1, .category{
+    color: transparent;
+    &:hover{
+      color: white;
+  }
+}
+}
   .category{
     margin: 0;
     padding-left: 1em;
