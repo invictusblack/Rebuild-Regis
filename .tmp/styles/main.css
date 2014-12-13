@@ -70,11 +70,16 @@ img {
   padding-left: 1em;
   line-height: 30px;
   font-size: 1.25em;
+  visibility: hidden;
+}
+.container .category:hover {
+  color: white;
 }
 .container h1 {
   margin: 0;
   padding-left: 14.5px;
   font-size: 2.35em;
+  visibility: hidden;
 }
 .container img {
   z-index: -10;
