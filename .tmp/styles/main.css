@@ -58,7 +58,6 @@ img {
 .container {
   height: 20em;
   width: 100%;
-  padding: 1em;
   color: transparent;
   float: left;
 }
@@ -119,8 +118,8 @@ img {
 .page-header .type {
   padding-left: .17em;
 }
-.page-header .nav-bars {
-  width: 10%;
+.page-header .nav-bar {
+  max-width: 15%;
 }
 
 .css-module {
@@ -218,6 +217,9 @@ img {
   display: inline-block;
 }
 
+.social-media {
+  padding: 0;
+}
 .social-media ul {
   content: "";
   display: table;
@@ -237,9 +239,8 @@ img {
   color: #6b18e5;
 }
 .social-media p {
-  font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  font: 600 0.7em/0.01px "proxima-nova-alt",Helvetica,Arial,sans-serif;
   clear: both;
-  display: block;
   float: right;
   color: #6b18e5;
 }
