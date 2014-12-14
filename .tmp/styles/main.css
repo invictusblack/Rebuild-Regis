@@ -215,30 +215,6 @@ img {
   display: inline-block;
 }
 
-header {
-  content: "";
-  display: table;
-  clear: both;
-  width: 100%;
-  position: relative;
-  margin-bottom: 0em;
-}
-header .utility-logo-group {
-  width: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-header .header-utilities {
-  float: left;
-}
-header .logo-mcad {
-  float: right;
-}
-header .main-nav {
-  float: right;
-}
-
 .social-media ul {
   content: "";
   display: table;
@@ -263,38 +239,4 @@ header .main-nav {
   display: block;
   float: right;
   color: #6b18e5;
-}
-
-.header-utilities {
-  content: "";
-  display: table;
-  clear: both;
-  margin: 0;
-  padding: 0.25em;
-  list-style-type: none;
-  font-size: 0.75em;
-  font-weight: 500;
-  line-height: 1;
-}
-.header-utilities li {
-  float: left;
-  width: 6em;
-  margin-right: 2.5em;
-  border-left: 1px solid #333;
-  padding: 0.25em .5em;
-  opacity: 0.4;
-}
-.header-utilities li:hover {
-  opacity: 1;
-}
-.header-utilities .line {
-  display: block;
-}
-.header-utilities .brochure {
-  background: url("../images/sdo_broch.png") no-repeat right;
-  width: 8em;
-}
-.header-utilities a {
-  color: #333;
-  text-decoration: none;
 }
