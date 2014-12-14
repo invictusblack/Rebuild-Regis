@@ -119,6 +119,9 @@ img {
 .page-header .type {
   padding-left: .17em;
 }
+.page-header .nav-bars {
+  width: 10%;
+}
 
 .css-module {
   margin-bottom: 3em;
