@@ -7,16 +7,20 @@
    background: #6b18e5;
    color: white;
   }
-  .category, h1{
+  .category{
     margin: 0;
-    padding: 2em;
+    padding-left: 2em;
     line-height: 30px;
     font-size: 1.25em;
-    .h1{
-      font-size: 2.35em;
-    }
   }
 
+  h1{
+    margin: 0;
+    padding-left:1em;
+    padding-top:1em;
+    padding-right:1em;
+    font-size: 2.35em;
+  }
   img{
     z-index: -10;
     max-width: none;
