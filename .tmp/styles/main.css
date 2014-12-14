@@ -55,6 +55,13 @@ img {
   width: auto;
 }
 
+.header {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  display: inline;
+}
+
 .container {
   height: 20em;
   width: 100%;
@@ -109,16 +116,15 @@ img {
 
 .page-header {
   margin: 0;
-  padding: 0;
   font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
   color: #6b18e5;
 }
 .page-header .Regis {
   font-size: 28px;
-  padding-left: 18.75em;
+  padding-left: 19.75em;
 }
 .page-header .type {
-  padding-left: .17em;
+  padding-left: .18em;
 }
 .page-header .nav-bar {
   max-width: 100%;
