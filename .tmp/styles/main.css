@@ -213,10 +213,6 @@ img {
 .main-nav li {
   float: left;
   padding: 0 0.5em;
-  color: #6b18e5;
-}
-.main-nav li:hover {
-  color: black;
 }
 .main-nav a {
   color: #6b18e5;
