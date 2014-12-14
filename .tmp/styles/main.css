@@ -13,7 +13,7 @@ body {
   color: #333;
   max-width: 100em;
   margin: 1.75em;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 
 .browsehappy {
@@ -149,48 +149,6 @@ img {
   border: 1px solid #eee;
 }
 
-.category-blue {
-  background: linear-gradient(#0AF5FD, transparent);
-}
-.category-bluehover {
-  background: #0AF5FD;
-}
-
-.category-red {
-  background: linear-gradient(#E62620, transparent);
-}
-.category-redhover {
-  background: #E62620;
-}
-
-.category-pink {
-  background: linear-gradient(#EA0094, transparent);
-}
-.category-pinkhover {
-  background: #EA0094;
-}
-
-.category-green {
-  background: linear-gradient(#00EA90, transparent);
-}
-.category-greenhover {
-  background: #00EA90;
-}
-
-.category-yellow {
-  background: linear-gradient(#D5DC00, transparent);
-}
-.category-yellowhover {
-  background: #D5DC00;
-}
-
-.category-purple {
-  background: linear-gradient(#D43BEF, transparent);
-}
-.category-purplehover {
-  background: #D43BEF;
-}
-
 .main-nav {
   float: right;
   font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
@@ -212,7 +170,7 @@ img {
   display: table;
   clear: both;
   margin: 0;
-  padding: 0;
+  padding-bottom: 10px;
   list-style-type: none;
 }
 .main-nav li {
