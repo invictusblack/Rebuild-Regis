@@ -12,7 +12,7 @@ body {
   font-family: "franklin-gothic-urw", sans-serif;
   color: #333;
   max-width: 100em;
-  margin: 4em;
+  margin: 1.75em;
   padding: 0 2em;
 }
 
@@ -107,6 +107,8 @@ img {
 }
 
 .page-header {
+  margin: 0;
+  padding: 0;
   font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
   color: #6b18e5;
 }
@@ -219,7 +221,7 @@ header {
   clear: both;
   width: 100%;
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 header .utility-logo-group {
   width: 50%;
