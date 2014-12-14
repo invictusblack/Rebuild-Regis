@@ -1,5 +1,6 @@
 .social-media{
   padding: 0;
+  color: #6b18e5;
 
 ul{
   @include clearfix;
@@ -21,9 +22,12 @@ a{
 }
 
 p{
-  font:600 0.7em/0.01px "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  font:600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
   clear:both;
-  float: right;
-  color: #6b18e5;
+  display:block;
+  margin-top:2em;
+  clear:none;
+  float:right;
+  margin:0
 }
 }

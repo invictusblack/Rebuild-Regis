@@ -63,6 +63,8 @@ img {
 }
 
 .container {
+  margin: 0;
+  padding: 0;
   height: 20em;
   width: 100%;
   color: transparent;
@@ -112,6 +114,7 @@ img {
   float: right;
   width: 35%;
   height: 17em;
+  margin-bottom: 1px;
 }
 
 .page-header {
@@ -120,10 +123,13 @@ img {
   color: #6b18e5;
 }
 .page-header .Regis {
+  margin: 0;
+  padding-top: 2em;
   font-size: 28px;
   padding-left: 19.75em;
 }
 .page-header .type {
+  padding-top: 2em;
   padding-left: .18em;
 }
 .page-header .nav-bar {
@@ -219,10 +225,15 @@ img {
   text-decoration: none;
   padding: 0.5em 0em;
   display: inline-block;
+  color: #6b18e5;
+}
+.main-nav a:hover {
+  color: black;
 }
 
 .social-media {
   padding: 0;
+  color: #6b18e5;
 }
 .social-media ul {
   content: "";
@@ -243,8 +254,11 @@ img {
   color: #6b18e5;
 }
 .social-media p {
-  font: 600 0.7em/0.01px "proxima-nova-alt",Helvetica,Arial,sans-serif;
+  font: 600 0.7em/15px "proxima-nova-alt",Helvetica,Arial,sans-serif;
   clear: both;
+  display: block;
+  margin-top: 2em;
+  clear: none;
   float: right;
-  color: #6b18e5;
+  margin: 0;
 }

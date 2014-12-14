@@ -1,4 +1,6 @@
 .container {
+  margin: 0;
+  padding: 0;
   height: 20em;
   width: 100%;
   color: transparent;
@@ -48,5 +50,6 @@
     float: right;
     width: 35%;
     height: 17em;
+    margin-bottom: 1px;
   }
 }
