@@ -6,8 +6,9 @@
   color: transparent;
   float: left;
   &:hover{
-   background: #6b18e5;
    color: white;
+   opacity: 0.2;
+   filter: alpha(opacity=20);
   }
   .category{
     margin: 0;

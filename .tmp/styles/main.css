@@ -70,8 +70,9 @@ img {
   float: left;
 }
 .container:hover {
-  background: #6b18e5;
   color: white;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
 }
 .container .category {
   margin: 0;
