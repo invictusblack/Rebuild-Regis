@@ -11,9 +11,9 @@ body {
   background: #fff;
   font-family: "franklin-gothic-urw", sans-serif;
   color: #333;
-  max-width: 75em;
-  margin: 4em;
-  padding: 0 2em;
+  max-width: 100em;
+  margin: 3em;
+  padding: 0 1em;
 }
 
 .browsehappy {
