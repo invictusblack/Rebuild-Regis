@@ -12,7 +12,7 @@ body {
   font-family: "franklin-gothic-urw", sans-serif;
   color: #333;
   max-width: 100em;
-  margin: 3em;
+  margin: 1.75em;
   padding: 0 1em;
 }
 
@@ -27,7 +27,7 @@ img {
   max-width: 100%;
 }
 
-.container {
+.article-block {
   content: "";
   display: table;
   clear: both;
